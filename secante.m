@@ -1,5 +1,9 @@
 function [resp] =secante(fx,xt,dx, nit_max)
-
+%{
+UNIVERSIDAD DE GUANAJUATO
+Juan Carlos Carrasco López
+Programa para calcular la raiz de un polinomio mediante el metodo de la secante
+%}
 formatSpec = 'n\t\txt\t\txnew\t\tfx\t\t\tfxnew\t\t\txraiz\t\t\n';
 fprintf(formatSpec);
 %aproximacion%

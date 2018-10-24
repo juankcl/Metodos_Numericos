@@ -1,2 +1,0 @@
-function [answer]=newtonrap(x)
-
